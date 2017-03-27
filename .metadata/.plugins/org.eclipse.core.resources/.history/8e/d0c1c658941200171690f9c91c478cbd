@@ -1,0 +1,16 @@
+public class Room1 {
+
+	public static void main(String[] args) {
+		RoomOccupancy Room1 = new RoomOccupancy();
+		Room1.addOneToRoom();
+		Room1.addOneToRoom();
+		Room1.addOneToRoom();
+		Room1.addOneToRoom();
+		Room1.addOneToRoom();
+		Room1.addOneToRoom();
+		Room1.addOneToRoom();
+		int total1 = Room1.getTotal();
+		System.out.println(total1);
+	}
+
+}

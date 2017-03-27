@@ -1,0 +1,16 @@
+
+public class Room2 {
+
+	public static void room2(){
+		RoomOccupancy Room2 = new RoomOccupancy();
+		Room2.addOneToRoom();
+		Room2.addOneToRoom();
+		Room2.addOneToRoom();
+		Room2.addOneToRoom();
+		Room2.addOneToRoom();
+		Room2.addOneToRoom();
+		Room2.removeOneFromRoom();
+
+	}
+
+}

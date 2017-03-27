@@ -1,0 +1,24 @@
+
+public class RoomOccupancy {
+		
+	public int numberInRoom;
+	
+	public static int totalNumber;
+
+	public int getNumberInRoom(){
+		return this.numberInRoom;
+		
+	}
+	public int addOneToRoom(){
+		return +1;
+	}
+	public int removeOneFromRoom(){
+		return -1;
+	}
+	public int getNumber(){
+		return this.numberInRoom;
+	}
+	public static int getTotal(){
+		return totalNumber;
+	}
+}

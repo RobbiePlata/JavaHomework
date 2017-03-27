@@ -1,0 +1,28 @@
+
+public class RoomOccupancy {
+
+	//Initial Variables
+	public static int totalNumber = 0;
+	public int numberInRoom;
+
+	public int getNumberInRoom(){
+		return this.numberInRoom;
+	}
+	
+	//Methods
+	public void addOneToRoom(){
+		totalNumber ++;
+		numberInRoom ++;
+	}
+	public void removeOneFromRoom(int amount){
+		for(int i = )
+		totalNumber --;
+		numberInRoom --;
+	}
+	public void getNumber(){
+		this.numberInRoom = numberInRoom;
+	}
+	public static int getTotal(){
+		return totalNumber;
+	}
+}

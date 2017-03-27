@@ -1,0 +1,27 @@
+public class Room2 {
+	
+	
+	public static void main(String[] args) {
+		RoomOccupancy Kitchen = new RoomOccupancy();
+		Kitchen.addOneToRoom();
+		Kitchen.addOneToRoom();
+		Kitchen.addOneToRoom();
+		Kitchen.addOneToRoom();
+		Kitchen.addOneToRoom();
+		Kitchen.addOneToRoom();
+		Kitchen.removeOneFromRoom();
+		Kitchen.addOneToRoom();
+		Kitchen.addOneToRoom();
+		Kitchen.addOneToRoom();
+		Kitchen.addOneToRoom();
+		Kitchen.addOneToRoom();
+		Kitchen.addOneToRoom();
+		Kitchen.removeOneFromRoom();
+		int total = Kitchen.getTotal();
+		int roomNum = Kitchen.getNumberInRoom();
+		System.out.println("The number in Kitchen is " + roomNum);
+		System.out.println("The total is " + total);
+		
+		
+	}
+}

@@ -1,0 +1,21 @@
+public class Room1 {
+
+	public static void room1(){
+		RoomOccupancy Room1 = new RoomOccupancy();
+		Room1.addOneToRoom();
+		Room1.addOneToRoom();
+		Room1.addOneToRoom();
+		Room1.addOneToRoom();
+		Room1.addOneToRoom();
+		Room1.addOneToRoom();
+		Room1.removeOneFromRoom();
+		Room1.removeOneFromRoom();
+		Room1.removeOneFromRoom();
+		Room1.addOneToRoom();
+		Room1.removeOneFromRoom();
+		Room1.addOneToRoom();
+		int total1 = Room1.getTotal();
+		System.out.println(Room1.getNumberInRoom());
+	}
+
+}
