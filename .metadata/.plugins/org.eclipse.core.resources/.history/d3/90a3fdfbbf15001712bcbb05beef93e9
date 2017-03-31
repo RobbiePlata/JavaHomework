@@ -1,0 +1,12 @@
+
+public class Election1 {
+
+	public static void main(String[] args) {
+		VoteRecorder oops2020  = new VoteRecorder();
+		oops2020.setCandidatesPresident("stump", "billary");
+		oops2020.setCandidatesVicePresident("shocky", "brain");
+		oops2020.resetVotes();
+		;
+	}
+
+}
