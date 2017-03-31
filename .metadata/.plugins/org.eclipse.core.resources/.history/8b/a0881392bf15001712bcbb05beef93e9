@@ -1,0 +1,10 @@
+
+public class Election1 {
+
+	public static void main(String[] args) {
+		VoteRecorder notAgain = new VoteRecorder();
+		not
+
+	}
+
+}

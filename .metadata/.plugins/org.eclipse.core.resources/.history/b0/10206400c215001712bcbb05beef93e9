@@ -1,0 +1,16 @@
+
+public class Election1 {
+
+	public static void main(String[] args) {
+		String pres1 = "Mac";
+		String pres2 = "Dennis";
+		String vice1 = "Charlie";
+		String vice2 = "Dee";
+		VoteRecorder election1  = new VoteRecorder();
+		election1.setCandidatesPresident(pres1, pres2);
+		election1.setCandidatesVicePresident(vice1, vice2);
+		System.out.println(election1.nameCandidatePresident1);
+		;
+	}
+
+}
