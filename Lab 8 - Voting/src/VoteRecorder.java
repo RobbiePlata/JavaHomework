@@ -187,7 +187,7 @@ public class VoteRecorder {
 		boolean state = election.confirmVotes();
 		if (state == false){
 			System.out.println("resetting vote count to zero");
-			election.resetVotes();
+			VoteRecorder.resetVotes();
 			while(state == false){
 				System.out.println("Choose again");
 				election.getAVote(nameCandidatePresident1, nameCandidatePresident2);
