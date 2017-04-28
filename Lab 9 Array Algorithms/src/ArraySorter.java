@@ -35,7 +35,7 @@ public class ArraySorter{
 	static int[] set2 = {k, l, m, n, o, p, q, r, s, t};
 	static int[] set3 = {a, c, e, g, i, k, m, o, q, s};
 
-	// Bubble Sort Algorithm
+	// Bubble Sort Algorithm
 	public static void bubbleSort(int[] anArray){
 		System.out.print("\nBubble Sort Algorithm\n");
 		for (int index = 0; index < anArray.length - 1; index ++){
