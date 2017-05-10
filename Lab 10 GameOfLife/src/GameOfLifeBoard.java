@@ -1,6 +1,6 @@
 //Robert C Plata III
-public class GameOfLifeBoard
-{
+public class GameOfLifeBoard{
+	
   static boolean go = true;
   private static int BOARDSIZE = 9;
   private char[][] board;
